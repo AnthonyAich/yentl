@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    height: 55px;
+    margin-top: 12.5px;
+    width: 50vw;
+    margin:0 auto;
+    justify-content: center;
+    display: flex;
+    /* background-color: #7bb928; */
+}
+
+nav a {
+    color: #878786;
+    font-size: 25px;
+    padding: 12.5px 25px;
+
+}
+
+nav a:hover {
+    color: #3c4951;
+}
+
+.content {
+    margin: 0px 15%;
+}
+
+h1 {
+    color: #7bb928;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.tekst > p {
+    font-size: 25px;
+    color: #3c4951;
+}
+
+.tekst {
+    width: 55%;
+    float: left;
+    margin-top: 45vh;
+}
+
+img.logo{
+    float: right;
+    width: 20vw;
+    margin-top:  20vh;
+}
+
+.homeButton {
+    margin-top: 5px;
+    color: white;
+    background-color: #3c4951;
+    font-size: 25px;
+    width: 200px;
+    height: 35px;
+    border: none;
+}
+
+.logoNav {
+    position: absolute;
+    height: 53px;
+    width: auto;
+    left: 20px;
+    top: 2px;
+}
+
+.winkelContent {
+    display: grid;
+    margin: 0px 15%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+    height: 450px;
+    margin:2px;
+    border:2px solid #878786;
+}
+.titelInformatie {
+    font-size: 35px;
+    clear: both;
+}
+.tekstInfo {
+    float: left;
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 25px;
+    color: #3c4951;
+}
+.foto {
+    float: right;
+    width: 20%;
+    height: 20vh;
+    background-color: #878786;
+    color: white;
+    text-align: center;
+}
+
+.titelInformatie:first-of-type {
+margin-top: 10vh;
+}
