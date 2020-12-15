@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: 'Roboto',
     sans-serif;
+    text-decoration: none;
 }
 
 a {
@@ -81,13 +82,24 @@ img.logo{
 .winkelContent {
     display: grid;
     margin: 0px 15%;
+    margin-top: 10vh;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .product {
-    height: 450px;
+    min-height: 450px;
     margin:2px;
-    border:2px solid #878786;
+    border:1px solid #878786;
+}
+.productTitel {
+    color: #7bb928;
+    text-align: center;
+    padding: 15px 0px;
+}
+.informatieProduct {
+    font-size: 20px;
+    margin: 0 5%;
+    color: #3c4951;
 }
 .titelInformatie {
     font-size: 35px;
@@ -110,5 +122,19 @@ img.logo{
 }
 
 .titelInformatie:first-of-type {
-margin-top: 10vh;
+    margin-top: 10vh;
+}
+.fotoProduct {
+    height: 225px;
+    width: 90%;
+    background-color:  #3c4951;
+    margin: 0 auto;
+    color: white;
+}
+
+.productPrijs {
+    color: #7bb928;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
