@@ -71,6 +71,12 @@ img.logo{
     border: none;
 }
 
+.homeButton:hover {
+    transform: translate3d(3px, -3px, 0px);
+    box-shadow: -3px 3px 3px #878786;
+    cursor: pointer;
+}
+
 .logoNav {
     position: absolute;
     height: 53px;
@@ -137,4 +143,7 @@ img.logo{
     margin-top: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
+}
+.product:hover {
+border-color: #7bb928;
 }
