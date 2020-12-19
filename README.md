@@ -1,0 +1,4 @@
+# yentl
+Yentl EindwerkVoorbeeld
+
+SHA-256: EC3060D40643ADFB0621D9829CE706F66C549C1A0986772E0AE4C73A4B70CEB5 (niet compressed en zonder readme)
